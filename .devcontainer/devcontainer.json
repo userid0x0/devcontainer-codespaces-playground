@@ -1,0 +1,12 @@
+{
+    "name": "Debian based arm-none-eabi container",
+    "image": "ghcr.io/userid0x0/arm-baremetal-docker:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-themes"
+            ]
+        }
+    }
+}
